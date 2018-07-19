@@ -64,7 +64,7 @@ public class AnalyticsWebInterface {
 
                 /**
                  * @author Leandro Panegassi <leandropanegassi89@gmail.com>
-                 * Customização da classe AnalyticsWebInterface para suportar o event type "purchase" com items (produtos) no Google Analytics.
+                 * Customização da classe AnalyticsWebInterface para suportar o event type "ecommerce_purchase" com items (produtos) utilizando Google Firebase Analytics + Google Analytics.
                  */
                 if (key.equals("items")) {
                     JSONArray itemsArray = (JSONArray) value;

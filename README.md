@@ -5,6 +5,7 @@ https://firebase.google.com/docs/analytics/android/webview
 
 Para enviar as informações, devemos seguir o seguinte padrão:
 
+```javascript
 logEvent('ecommerce_purchase', {
     "keys": "values",
     "items": [{
@@ -21,5 +22,6 @@ logEvent('ecommerce_purchase', {
         "item_id": "sku3334"
     }]
 });
+```
 
 Parâmetros possíveis (items): https://firebase.google.com/docs/reference/android/com/google/firebase/analytics/FirebaseAnalytics.Param#INDEX
